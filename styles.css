@@ -30,9 +30,19 @@ ul{
 
 .header{
     display: flex;
-    justify-content: space-between;
     background-color: #1F2937;
-    padding: 20px 80px;
+    justify-content: center;
+    
+   
+}
+
+.container0{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+
 }
 
 .container1{
@@ -46,11 +56,13 @@ ul{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
 .container1 .text{
     color: #E5E7EB;
     font-size: 24px;
+    margin-bottom: 8px;
 }
 
 .container1 button{
@@ -62,12 +74,12 @@ ul{
 }
 
 .placeholder{
-    width: 100px;
+    width: 700px;
     background-color: #E5E7EB;
 }
 
 .subcontainer1{
-    width: 700px;
+    width: 1000px;
     display: flex;
     gap: 32px ;
     padding: 82px;
@@ -81,8 +93,8 @@ ul{
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
-    
-    margin-bottom: 32px;
+    padding: 32px;
+    margin-bottom: 16px;
 }
 
 .container2 .text{
@@ -94,9 +106,23 @@ ul{
     display: flex;
     justify-content: center;
     gap :32px;
-    width: 700px;
+    width: 1000px;
     padding: 82px;
 }
+
+.image{
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+  width: 200px;            
+  height: 200px;           
+  background-color: #F9FAF8; 
+  border: 3px solid #3882f6;   
+  border-radius: 10px;
+}
+
 
 .container3{
     background-color: #E5E7EB;
@@ -107,7 +133,7 @@ ul{
 
 .subcontainer3{
     display: flex;
-    width: 700px;
+    width: 1000px;
     padding: 82px;
     
 }
@@ -155,7 +181,7 @@ ul{
 
 .subcontainer4{
     display: flex;
-    width: 700px;
+    width: 1000px;
     justify-content: space-around;
     padding: 32px;
     margin: 82px 0;
@@ -167,5 +193,6 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 32px;
 }
 
