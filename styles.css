@@ -1,6 +1,13 @@
 body{
     font-family: Roboto, sans-serif;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    
+    flex: 1;
 }
 
 a{
@@ -46,5 +53,91 @@ ul{
 .container1 button{
     background-color: #3882f6;
     color: #F9FAF8;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2 .title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    
+    margin-bottom: 32px;
+}
+
+.container2 .text{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.subcontainer2{
+    display: flex;
+    justify-content: center;
+    gap :32px;
+    width: 700px;
+}
+
+.container3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subcontainer3{
+    display: flex;
+    width: 700px;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.source{
+    align-self: flex-end;
+}
+
+.container4 button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+.container4 .subcontainer4{
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+.container4 .title{
+    font-weight: 900;
+
+}
+
+.container4 .text{
+    color: #E5E7EB;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+}
+
+.subcontainer4{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
