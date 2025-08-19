@@ -32,11 +32,14 @@ ul{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 20px 80px;
 }
 
 .container1{
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
 }
 
 .container1 .title{
@@ -53,6 +56,21 @@ ul{
 .container1 button{
     background-color: #3882f6;
     color: #F9FAF8;
+    border-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+.placeholder{
+    width: 100px;
+    background-color: #E5E7EB;
+}
+
+.subcontainer1{
+    width: 700px;
+    display: flex;
+    gap: 32px ;
+    padding: 82px;
 }
 .container2{
     display: flex;
@@ -77,6 +95,7 @@ ul{
     justify-content: center;
     gap :32px;
     width: 700px;
+    padding: 82px;
 }
 
 .container3{
@@ -89,6 +108,7 @@ ul{
 .subcontainer3{
     display: flex;
     width: 700px;
+    padding: 82px;
     
 }
 
@@ -101,11 +121,16 @@ ul{
 
 .source{
     align-self: flex-end;
+    font-weight: bold;
 }
 
 .container4 button{
     background-color: #3882f6;
     color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 0 20px;
+    
 }
 
 .container4 .subcontainer4{
@@ -125,12 +150,15 @@ ul{
 .container4{
     display: flex;
     justify-content: center;
+   
 }
 
 .subcontainer4{
     display: flex;
     width: 700px;
     justify-content: space-around;
+    padding: 32px;
+    margin: 82px 0;
 }
 
 .footer{
