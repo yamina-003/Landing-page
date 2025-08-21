@@ -5,8 +5,7 @@ body{
     flex-direction: column;
 }
 
-.content{
-    
+.content{ 
     flex: 1;
 }
 
@@ -31,9 +30,7 @@ ul{
 .header{
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
-    
-   
+    justify-content: center;  
 }
 
 .container0{
@@ -42,7 +39,6 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: 32px;
-
 }
 
 .container1{
@@ -78,18 +74,20 @@ ul{
     background-color: #E5E7EB;
 }
 
-.subcontainer1{
+.subcontainer1, .subcontainer2{
     width: 1000px;
     display: flex;
     gap: 32px ;
     padding: 82px;
 }
+
 .container2{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
+
 .container2 .title{
     color: #1F2937;
     font-size: 36px;
@@ -104,16 +102,13 @@ ul{
 }
 
 .subcontainer2{
-    display: flex;
     justify-content: center;
-    gap :32px;
-    width: 1000px;
-    padding: 82px;
 }
 
 .image{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .square {
@@ -128,15 +123,13 @@ ul{
 .container3{
     background-color: #E5E7EB;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .subcontainer3{
     display: flex;
     width: 1000px;
     padding: 82px;
-    
 }
 
 .quote{
@@ -160,9 +153,19 @@ ul{
     
 }
 
-.container4 .subcontainer4{
+.container4{
+    display: flex;
+    justify-content: center;
+}
+
+.subcontainer4{
     background-color: #3882f6;
     color: #F9FAF8;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    padding: 32px;
+    margin: 82px 0;
 }
 
 .container4 .title{
@@ -172,20 +175,6 @@ ul{
 
 .container4 .text{
     color: #E5E7EB;
-}
-
-.container4{
-    display: flex;
-    justify-content: center;
-   
-}
-
-.subcontainer4{
-    display: flex;
-    width: 1000px;
-    justify-content: space-around;
-    padding: 32px;
-    margin: 82px 0;
 }
 
 .footer{
